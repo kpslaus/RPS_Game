@@ -1,0 +1,23 @@
+.jumbotron{
+	background-color: black;
+	color: #f48fb1;
+}
+
+body{
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/14/42/2b/14422bc8f98de925694671b84327a0ac.gif);
+
+}
+
+.form-group{
+	background-color: black;
+	color: #f48fb1;
+	font-size: 30px;
+	padding-right: 530px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+}
+
+.container{
+	float: right;
+}
+

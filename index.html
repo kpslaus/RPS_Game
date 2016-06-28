@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dis rock paper scissors shizznet</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+	<script>
+  var config = {
+    apiKey: "AIzaSyCkkpFjXcAb7oCnBNCM5ZAQxqoENHrE0M0",
+    authDomain: "rockpaperscissorsmultiplayer.firebaseapp.com",
+    databaseURL: "https://rockpaperscissorsmultiplayer.firebaseio.com",
+    storageBucket: ""
+  };
+
+  firebase.initializeApp(config);
+  </script>
+
+</head>
+<body>
+
+
+	<div class="container">
+
+		<br>
+			<div class="jumbotron">
+				<h1 class="text-center">ROCK PAPER SCISSORS</h1>
+			</div>
+	</div>
+
+		<div class="container">
+
+			<form role="form">
+				<div class="form-group">
+					<label for="text">Name:</label>
+					<input type="text" class="form-control" id="nameinput">
+				<button type="submit" class="btn btn-default" id="addname">Enter!</button>
+
+				</div>
+
+			</form>
+
+		<div class="container">
+
+				<div class="col-lg-4">
+					<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title-text-center">Player One</h2>
+					<br>
+							<h3 id="r">Rock</h3>
+							<h3 id="p">Paper</h3>
+							<h3 id="s">Scissors</h3>
+
+					</div>
+					</div>
+				</div>
+		</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title-text-center">Player Two</h2>
+					<br>
+							<h3 class="option1">Rock</h3>
+							<h3 clas="option2">Paper</h3>
+							<h3 class="option3">Scissors</h3>
+					</div>
+					</div>
+				</div>
+			</div>
+
+</body>
+</html>
